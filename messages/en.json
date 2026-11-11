@@ -1,0 +1,380 @@
+{
+  "meta": {
+    "title": "SANTINEL — Everyone gets home safe",
+    "description": "SANTINEL helps the site manager see what matters in time: a forgotten helmet, an unclipped harness, dust over the limit. Fewer accidents, cleaner air for the neighbours."
+  },
+  "nav": {
+    "problem": "Problem",
+    "safety": "Safety",
+    "air": "Air",
+    "how": "How it works",
+    "demo": "Live demo",
+    "pricing": "Pricing",
+    "cta": "Book a demo"
+  },
+  "preloader": {
+    "boot": "Booting system",
+    "ready": "Site under watch"
+  },
+  "hero": {
+    "badge": "Safer sites · Cleaner air for the neighbourhood",
+    "title1": "Everyone",
+    "title2": "gets home",
+    "title3": "safe.",
+    "subtitle": "SANTINEL is a second pair of eyes for the site manager. It notices when someone forgot a helmet or harness, or when dust gets too high, and lets them know right away. A quick word fixes it before it becomes an accident.",
+    "ctaPrimary": "Book a demo",
+    "ctaSecondary": "See how it works",
+    "scroll": "Scroll",
+    "hudCam": "CAM 01 · TOWER A",
+    "hudStatus": "AI ACTIVE",
+    "labelOk": "Andrei · helmet on ✓",
+    "labelHarness": "Floor 5 · harness unclipped",
+    "labelPm": "Good air · 38 µg/m³"
+  },
+  "problem": {
+    "kicker": "The problem",
+    "statement": "On a construction site, most accidents don't come from bad intentions. They come from rushing, from fatigue, from \"it's fine, just a minute\". And the neighbours never chose to breathe the site's dust.",
+    "safetyTitle": "The people on site",
+    "safetyItems": [
+      "Workers without helmets or high-visibility vests",
+      "Work at height without a harness or safety line",
+      "People entering restricted zones under suspended loads",
+      "Theft of materials and tools, especially at night"
+    ],
+    "airTitle": "The people around the site",
+    "airItems": [
+      "Dust (PM10, PM2.5) above the legal limit in residential areas",
+      "Nobody measures it. Nobody is alerted in time",
+      "Water cannons start too late, or never",
+      "Fines, resident complaints, halted works"
+    ],
+    "stats": {
+      "fatalShare": "of fatal workplace accidents in the EU happen in construction",
+      "falls": "cause of death on site: falling from height",
+      "pm10Limit": "legal daily limit for PM10 in urban air",
+      "exceedDays": "days per year the limit may legally be exceeded, and no more"
+    },
+    "sourcesLabel": "Sources",
+    "closing": "The site manager can't be everywhere. But they can know in time."
+  },
+  "marquee": [
+    "Everyone home",
+    "Helmet",
+    "Harness at height",
+    "Hi-vis vest",
+    "Clean air",
+    "Happy neighbours",
+    "Fewer fines",
+    "Less worry"
+  ],
+  "safety": {
+    "kicker": "Keeping people safe",
+    "title": "A colleague who sees the whole site, every minute.",
+    "intro": "SANTINEL uses the cameras you already have. When it spots a dangerous situation, it sends the site manager a photo and the exact spot, so they can step in in time, with a word rather than a fine.",
+    "cam": "CAM 03 · ZONE B",
+    "night": "NIGHT · IR MODE",
+    "alertSent": "Alert sent to site manager",
+    "steps": [
+      {
+        "tag": "Protective gear",
+        "title": "Forgot the helmet",
+        "desc": "It happens: a break, a quick climb up the scaffold. The site manager knows right away and can remind them before anything falls.",
+        "label": "NO HELMET",
+        "conf": "97%"
+      },
+      {
+        "tag": "Work at height",
+        "title": "Harness not clipped",
+        "desc": "Falling from height is the most serious risk on site. SANTINEL notices anyone on scaffolding or at an edge who isn't secured.",
+        "label": "NO HARNESS · 6.2 m",
+        "conf": "94%"
+      },
+      {
+        "tag": "Visibility",
+        "title": "No vest near machinery",
+        "desc": "An excavator driver needs to see everyone around. A missing vest is flagged before it matters.",
+        "label": "NO VEST",
+        "conf": "92%"
+      },
+      {
+        "tag": "Danger zones",
+        "title": "Too close to danger",
+        "desc": "Under the crane, near a trench, by the electrical panel. You choose the zones, and SANTINEL lets you know when someone steps in.",
+        "label": "RESTRICTED ZONE",
+        "conf": "99%"
+      },
+      {
+        "tag": "At night",
+        "title": "Materials leaving at night",
+        "desc": "When the site is closed, SANTINEL keeps watch. If someone walks out of the gate with materials, you get a clip right away.",
+        "label": "PERSON · MATERIALS",
+        "conf": "91%"
+      }
+    ]
+  },
+  "air": {
+    "kicker": "Neighbourhood air",
+    "title": "Clean air for the people who live next to the site.",
+    "intro": "Small sensors on the site fence measure dust and noise. When levels rise, the site manager knows right away and knows exactly what to do.",
+    "reading": "PM10 · 15-min average",
+    "threshold": "Legal limit",
+    "status": {
+      "good": "Good air",
+      "rising": "Dust rising",
+      "exceeded": "Limit exceeded",
+      "recovering": "Water cannons active"
+    },
+    "steps": [
+      {
+        "title": "Always know the air quality",
+        "desc": "Three sensors on the fence, a reading every minute. The history is always there, including for the authorities."
+      },
+      {
+        "title": "Know before the neighbours do",
+        "desc": "Demolition pushes dust over the legal limit, and the site manager is alerted on the spot, not after a complaint."
+      },
+      {
+        "title": "Know what to do",
+        "desc": "Start the water cannons in the indicated zone. Within minutes, the air is back to normal."
+      }
+    ],
+    "alert": "Too much dust: start the water cannons (N-E zone)",
+    "sensor": "Sensor",
+    "residents": "Apartments",
+    "school": "School",
+    "site": "Site",
+    "cannon": "Water cannon"
+  },
+  "pipeline": {
+    "kicker": "How it works",
+    "title": "Simple for you. No complicated tech on site.",
+    "nodes": [
+      {
+        "title": "Your cameras",
+        "desc": "We use the cameras you already have, and just add a few air sensors on the fence."
+      },
+      {
+        "title": "A small box on site",
+        "desc": "Analyses the footage on the spot. People's faces are blurred automatically."
+      },
+      {
+        "title": "The SANTINEL app",
+        "desc": "Everything that happened, in one place. Reports ready for inspections."
+      },
+      {
+        "title": "A message on the phone",
+        "desc": "The right person gets the alert: notification, SMS, WhatsApp or email."
+      }
+    ],
+    "metrics": [
+      {
+        "value": "<1s",
+        "label": "until the site manager knows"
+      },
+      {
+        "value": "24/7",
+        "label": "nights and weekends included"
+      },
+      {
+        "value": "0",
+        "label": "faces recognised or stored"
+      },
+      {
+        "value": "1 day",
+        "label": "to get a site up and running"
+      }
+    ]
+  },
+  "demo": {
+    "kicker": "Try it",
+    "title": "A day on site, from the site manager's phone.",
+    "intro": "Press the buttons below and see what lands on the site manager's phone. It's a simulation, but this is exactly how it works.",
+    "live": "LIVE",
+    "siteName": "Iosefin Residential Site · Timișoara",
+    "score": "Safety score",
+    "air": "Air quality · PM10",
+    "alerts": "Recent alerts",
+    "cameras": "Cameras",
+    "empty": "No alerts yet. All good.",
+    "threshold": "limit 50",
+    "simulate": "Simulate",
+    "buttons": {
+      "helmet": "No helmet",
+      "harness": "No harness",
+      "pm": "Dust over limit",
+      "theft": "Night theft"
+    },
+    "phoneTitle": "Notifications",
+    "now": "now",
+    "events": {
+      "noHelmet": {
+        "title": "Worker without helmet",
+        "body": "{cam} · {zone}"
+      },
+      "noHarness": {
+        "title": "Work at height without harness",
+        "body": "{cam} · {zone} · floor 4"
+      },
+      "noVest": {
+        "title": "No hi-vis vest",
+        "body": "{cam} · {zone}"
+      },
+      "restricted": {
+        "title": "Restricted zone entry",
+        "body": "{cam} · under the crane"
+      },
+      "theft": {
+        "title": "Possible material theft",
+        "body": "{cam} · gate 2 · clip attached"
+      },
+      "pmHigh": {
+        "title": "PM10 above limit: {value} µg/m³",
+        "body": "Start water cannons · N-E zone"
+      },
+      "pmOk": {
+        "title": "PM10 back to normal: {value} µg/m³",
+        "body": "Water cannons can be stopped"
+      }
+    },
+    "zones": [
+      "Zone A",
+      "Zone B",
+      "Zone C",
+      "Main gate"
+    ]
+  },
+  "roi": {
+    "kicker": "Is it worth it?",
+    "title": "What does not knowing cost you?",
+    "intro": "Estimate the savings for your own site. All assumptions are shown below and can be adjusted.",
+    "workers": "Workers on site",
+    "cameras": "Cameras",
+    "months": "Project duration (months)",
+    "savings": "Estimated savings",
+    "cost": "SANTINEL Complete cost",
+    "roi": "Return",
+    "net": "Net gain",
+    "breakdown": {
+      "incidents": "Incidents avoided",
+      "fines": "Fines avoided",
+      "theft": "Theft prevented"
+    },
+    "formulasTitle": "How we calculate (assumptions)",
+    "formulas": [
+      "Incidents avoided = workers × {rate} incidents/year × years × {reduction} reduction × {cost} average cost",
+      "Fines avoided = months × {fines} average fines/month × {finesReduction} reduction",
+      "Theft prevented = workers × {theft} losses/month × months × {theftReduction} reduction",
+      "Cost = Complete subscription × months + cameras × {camera} (hardware)"
+    ],
+    "disclaimer": "Indicative estimate based on average assumptions. Actual results depend on the site."
+  },
+  "pricing": {
+    "kicker": "Pricing",
+    "title": "Simple subscription, per site.",
+    "intro": "No big upfront investment. We use the cameras you already have, and you bring SANTINEL to every new site within 24 hours.",
+    "perMonth": "/ site / month",
+    "recommended": "Recommended",
+    "choose": "Choose",
+    "plans": {
+      "air": {
+        "name": "Air",
+        "desc": "Air quality monitoring and pollution alerts.",
+        "features": [
+          "3 PM10 / PM2.5 / noise sensors",
+          "Threshold alerts",
+          "Water cannon recommendations",
+          "Reports for authorities"
+        ]
+      },
+      "safety": {
+        "name": "Safety",
+        "desc": "Your cameras help you keep an eye on gear, work at height and danger zones.",
+        "features": [
+          "Up to 12 cameras",
+          "Helmet, vest, harness, restricted zones",
+          "Night-time anti-theft",
+          "Push / SMS / WhatsApp alerts"
+        ]
+      },
+      "complete": {
+        "name": "Complete",
+        "desc": "Safety and air in a single control panel.",
+        "features": [
+          "Everything in Safety + Air",
+          "Unlimited cameras",
+          "Daily safety score",
+          "Automated H&S reports",
+          "Priority support"
+        ]
+      }
+    },
+    "hardware": "Optional hardware: camera {camera} {currency}, air sensor {sensor} {currency}. Indicative prices, VAT excluded."
+  },
+  "compliance": {
+    "kicker": "Trust",
+    "title": "We're not looking for someone to blame. We're preventing accidents.",
+    "items": [
+      {
+        "title": "GDPR by design",
+        "desc": "Faces are blurred automatically. No facial recognition. Frames are processed on the edge and only incident clips are kept."
+      },
+      {
+        "title": "Romanian H&S Law 319/2006",
+        "desc": "A complete log of events and corrective actions, ready to show during a Labour Inspectorate check."
+      },
+      {
+        "title": "Air quality",
+        "desc": "Measurements reported against the limit values in Law 104/2011. Exportable history for environmental authorities."
+      },
+      {
+        "title": "Security",
+        "desc": "End-to-end encryption, role-based access (site manager, H&S officer, management) and access auditing."
+      }
+    ]
+  },
+  "team": {
+    "kicker": "Team",
+    "title": "The people behind SANTINEL."
+  },
+  "cta": {
+    "title": "Let's make your site safer.",
+    "subtitle": "Let's meet for 20 minutes, online or right on your site. We'll show you how SANTINEL would work for you.",
+    "name": "Name",
+    "company": "Company",
+    "email": "Email",
+    "sites": "Number of sites",
+    "message": "Message (optional)",
+    "submit": "Send request",
+    "sending": "Sending…",
+    "success": "Thank you! We'll get back to you within 24 hours.",
+    "error": "Something went wrong. Email us directly.",
+    "mailSubject": "SANTINEL demo request"
+  },
+  "footer": {
+    "tagline": "The eye that watches over the site.",
+    "rights": "All rights reserved.",
+    "contact": "Contact"
+  },
+  "people": {
+    "kicker": "Who it's for",
+    "title": "Made for the people on site, not to watch over them.",
+    "items": [
+      {
+        "who": "The worker",
+        "text": "Gets home safe to their family. SANTINEL doesn't know who they are and doesn't tell on anyone: it only sees a missing helmet."
+      },
+      {
+        "who": "The site manager",
+        "text": "No more running from one end of the site to the other. They learn what matters in time, on their phone, and can focus on the work."
+      },
+      {
+        "who": "The neighbours",
+        "text": "Breathe cleaner air and sleep easier. The site next door stops being a source of stress."
+      },
+      {
+        "who": "The company",
+        "text": "Fewer accidents, fines and work stoppages. And the name of a builder who looks after people."
+      }
+    ]
+  }
+}

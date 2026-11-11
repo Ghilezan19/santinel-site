@@ -1,0 +1,380 @@
+{
+  "meta": {
+    "title": "SANTINEL — Fiecare om ajunge acasă întreg",
+    "description": "SANTINEL îl ajută pe coordonatorul de șantier să vadă la timp ce contează: o cască uitată, un ham nelegat, praf peste limită. Mai puține accidente, aer mai curat pentru vecini."
+  },
+  "nav": {
+    "problem": "Problema",
+    "safety": "Siguranță",
+    "air": "Aer",
+    "how": "Cum funcționează",
+    "demo": "Demo live",
+    "pricing": "Prețuri",
+    "cta": "Cere un demo"
+  },
+  "preloader": {
+    "boot": "Inițializare sistem",
+    "ready": "Șantier sub supraveghere"
+  },
+  "hero": {
+    "badge": "Siguranță pe șantier · Aer curat în cartier",
+    "title1": "Fiecare om",
+    "title2": "ajunge acasă",
+    "title3": "întreg.",
+    "subtitle": "SANTINEL e un al doilea rând de ochi pentru coordonatorul de șantier. Observă când cineva a uitat casca sau hamul ori când praful s-a ridicat prea mult, și îl anunță pe loc. Problema se rezolvă cu o vorbă, înainte să devină un accident.",
+    "ctaPrimary": "Cere un demo",
+    "ctaSecondary": "Vezi cum funcționează",
+    "scroll": "Derulează",
+    "hudCam": "CAM 01 · TURN A",
+    "hudStatus": "AI ACTIV",
+    "labelOk": "Andrei · are cască ✓",
+    "labelHarness": "Etaj 5 · ham nelegat",
+    "labelPm": "Aer bun · 38 µg/m³"
+  },
+  "problem": {
+    "kicker": "Problema",
+    "statement": "Pe un șantier, cele mai multe accidente nu vin din rea-voință. Vin din grabă, din oboseală, din „merge și așa, doar un minut”. Iar vecinii n-au ales să respire praful lucrării.",
+    "safetyTitle": "Oamenii de pe șantier",
+    "safetyItems": [
+      "Muncitori fără cască sau vestă reflectorizantă",
+      "Lucru la înălțime fără ham sau funie de siguranță",
+      "Intrări în zone interzise, sub sarcini suspendate",
+      "Furturi de materiale și scule, mai ales noaptea"
+    ],
+    "airTitle": "Oamenii din jurul șantierului",
+    "airItems": [
+      "Praf (PM10, PM2.5) peste limita legală în cartiere locuite",
+      "Nimeni nu măsoară. Nimeni nu e anunțat la timp",
+      "Tunurile de apă pornesc prea târziu sau deloc",
+      "Amenzi, plângeri ale locuitorilor, lucrări oprite"
+    ],
+    "stats": {
+      "fatalShare": "din accidentele mortale de muncă din UE au loc în construcții",
+      "falls": "cauză de deces pe șantier: căderea de la înălțime",
+      "pm10Limit": "limita zilnică legală pentru PM10 în aerul urban",
+      "exceedDays": "zile pe an în care limita poate fi depășită legal, nu mai mult"
+    },
+    "sourcesLabel": "Surse",
+    "closing": "Coordonatorul nu poate fi peste tot. Dar poate afla la timp."
+  },
+  "marquee": [
+    "Fiecare om acasă",
+    "Cască",
+    "Ham la înălțime",
+    "Vestă",
+    "Aer curat",
+    "Vecini liniștiți",
+    "Mai puține amenzi",
+    "Mai puține griji"
+  ],
+  "safety": {
+    "kicker": "Siguranța oamenilor",
+    "title": "Un coleg care vede tot șantierul, în fiecare minut.",
+    "intro": "SANTINEL folosește camerele pe care le aveți deja. Când observă o situație periculoasă, îi trimite coordonatorului o poză și locul exact, ca să poată interveni la timp, cu o vorbă, nu cu o amendă.",
+    "cam": "CAM 03 · ZONA B",
+    "night": "NOAPTE · MOD IR",
+    "alertSent": "Alertă trimisă coordonatorului",
+    "steps": [
+      {
+        "tag": "Echipament",
+        "title": "A uitat casca",
+        "desc": "Se întâmplă: o pauză, o urcare rapidă pe schelă. Coordonatorul află imediat și îi poate aminti omului, înainte să cadă ceva.",
+        "label": "FĂRĂ CASCĂ",
+        "conf": "97%"
+      },
+      {
+        "tag": "Lucru la înălțime",
+        "title": "Ham nelegat la înălțime",
+        "desc": "Căderea de la înălțime e cel mai grav risc pe șantier. SANTINEL observă cine lucrează pe schelă sau la margine fără să fie asigurat.",
+        "label": "FĂRĂ HAM · 6,2 m",
+        "conf": "94%"
+      },
+      {
+        "tag": "Vizibilitate",
+        "title": "Fără vestă lângă utilaje",
+        "desc": "Un șofer de excavator trebuie să-i vadă pe toți din jur. O vestă lipsă e semnalată înainte să conteze.",
+        "label": "FĂRĂ VESTĂ",
+        "conf": "92%"
+      },
+      {
+        "tag": "Zone periculoase",
+        "title": "Prea aproape de pericol",
+        "desc": "Sub macara, lângă o groapă, la tabloul electric. Voi alegeți zonele, iar SANTINEL anunță când cineva intră acolo.",
+        "label": "ZONĂ INTERZISĂ",
+        "conf": "99%"
+      },
+      {
+        "tag": "Noaptea",
+        "title": "Materiale care pleacă noaptea",
+        "desc": "Când șantierul e închis, SANTINEL rămâne de pază. Dacă cineva iese pe poartă cu materiale, primiți imediat un clip.",
+        "label": "PERSOANĂ · MATERIALE",
+        "conf": "91%"
+      }
+    ]
+  },
+  "air": {
+    "kicker": "Aerul din cartier",
+    "title": "Aer curat pentru cei care locuiesc lângă șantier.",
+    "intro": "Senzori mici pe gardul șantierului măsoară praful și zgomotul. Când nivelul crește, șeful de șantier află imediat și știe exact ce are de făcut.",
+    "reading": "PM10 · medie 15 min",
+    "threshold": "Limită legală",
+    "status": {
+      "good": "Aer bun",
+      "rising": "Praf în creștere",
+      "exceeded": "Limită depășită",
+      "recovering": "Tunuri de apă active"
+    },
+    "steps": [
+      {
+        "title": "Știți mereu cum e aerul",
+        "desc": "Trei senzori pe gard, măsurători la fiecare minut. Aveți istoricul oricând, inclusiv pentru autorități."
+      },
+      {
+        "title": "Aflați înaintea vecinilor",
+        "desc": "Demolarea ridică praful peste limita legală, iar șeful de șantier e anunțat pe loc, nu după o plângere."
+      },
+      {
+        "title": "Știți ce aveți de făcut",
+        "desc": "Porniți tunurile de apă în zona indicată. În câteva minute, aerul revine la normal."
+      }
+    ],
+    "alert": "Prea mult praf: porniți tunurile de apă (zona N-E)",
+    "sensor": "Senzor",
+    "residents": "Bloc locuințe",
+    "school": "Școală",
+    "site": "Șantier",
+    "cannon": "Tun de apă"
+  },
+  "pipeline": {
+    "kicker": "Cum funcționează",
+    "title": "Simplu pentru voi. Fără tehnologie complicată pe șantier.",
+    "nodes": [
+      {
+        "title": "Camerele voastre",
+        "desc": "Folosim camerele care există deja. Adăugăm doar câțiva senzori de aer pe gard."
+      },
+      {
+        "title": "O cutie mică pe șantier",
+        "desc": "Analizează imaginile pe loc. Fețele oamenilor sunt blurate automat."
+      },
+      {
+        "title": "Aplicația SANTINEL",
+        "desc": "Tot ce s-a întâmplat, într-un singur loc. Rapoarte gata pentru inspecții."
+      },
+      {
+        "title": "Un mesaj pe telefon",
+        "desc": "Persoana potrivită primește alerta: notificare, SMS, WhatsApp sau email."
+      }
+    ],
+    "metrics": [
+      {
+        "value": "<1s",
+        "label": "până află coordonatorul"
+      },
+      {
+        "value": "24/7",
+        "label": "inclusiv noaptea și în weekend"
+      },
+      {
+        "value": "0",
+        "label": "fețe recunoscute sau stocate"
+      },
+      {
+        "value": "1 zi",
+        "label": "ca să pornim pe un șantier"
+      }
+    ]
+  },
+  "demo": {
+    "kicker": "Încercați",
+    "title": "O zi pe șantier, din telefonul coordonatorului.",
+    "intro": "Apăsați butoanele de mai jos și vedeți ce primește coordonatorul pe telefon. Totul e simulat, dar exact așa funcționează.",
+    "live": "LIVE",
+    "siteName": "Șantier Rezidențial Iosefin · Timișoara",
+    "score": "Scor siguranță",
+    "air": "Calitatea aerului · PM10",
+    "alerts": "Alerte recente",
+    "cameras": "Camere",
+    "empty": "Nicio alertă încă. Totul e în regulă.",
+    "threshold": "limită 50",
+    "simulate": "Simulează",
+    "buttons": {
+      "helmet": "Fără cască",
+      "harness": "Fără ham",
+      "pm": "Praf peste limită",
+      "theft": "Furt nocturn"
+    },
+    "phoneTitle": "Notificări",
+    "now": "acum",
+    "events": {
+      "noHelmet": {
+        "title": "Muncitor fără cască",
+        "body": "{cam} · {zone}"
+      },
+      "noHarness": {
+        "title": "Lucru la înălțime fără ham",
+        "body": "{cam} · {zone} · etaj 4"
+      },
+      "noVest": {
+        "title": "Fără vestă reflectorizantă",
+        "body": "{cam} · {zone}"
+      },
+      "restricted": {
+        "title": "Intrare în zonă interzisă",
+        "body": "{cam} · sub macara"
+      },
+      "theft": {
+        "title": "Posibil furt de materiale",
+        "body": "{cam} · poarta 2 · clip atașat"
+      },
+      "pmHigh": {
+        "title": "PM10 peste limită: {value} µg/m³",
+        "body": "Pornește tunurile de apă · zona N-E"
+      },
+      "pmOk": {
+        "title": "PM10 revenit la normal: {value} µg/m³",
+        "body": "Tunuri de apă: pot fi oprite"
+      }
+    },
+    "zones": [
+      "Zona A",
+      "Zona B",
+      "Zona C",
+      "Acces principal"
+    ]
+  },
+  "roi": {
+    "kicker": "Merită?",
+    "title": "Cât vă costă să nu știți?",
+    "intro": "Estimați economiile pentru propriul șantier. Toate ipotezele sunt afișate mai jos și pot fi ajustate.",
+    "workers": "Muncitori pe șantier",
+    "cameras": "Camere",
+    "months": "Durata proiectului (luni)",
+    "savings": "Economii estimate",
+    "cost": "Cost SANTINEL Complete",
+    "roi": "Randament",
+    "net": "Câștig net",
+    "breakdown": {
+      "incidents": "Incidente evitate",
+      "fines": "Amenzi evitate",
+      "theft": "Furturi prevenite"
+    },
+    "formulasTitle": "Cum calculăm (ipoteze)",
+    "formulas": [
+      "Incidente evitate = muncitori × {rate} incidente/an × ani × {reduction} reducere × {cost} cost mediu",
+      "Amenzi evitate = luni × {fines} amenzi medii/lună × {finesReduction} reducere",
+      "Furturi prevenite = muncitori × {theft} pierderi/lună × luni × {theftReduction} reducere",
+      "Cost = abonament Complete × luni + camere × {camera} (hardware)"
+    ],
+    "disclaimer": "Estimare orientativă, bazată pe ipoteze medii. Rezultatele reale depind de șantier."
+  },
+  "pricing": {
+    "kicker": "Prețuri",
+    "title": "Abonament simplu, per șantier.",
+    "intro": "Fără investiții mari la început. Folosim camerele pe care le aveți deja și aduceți SANTINEL pe fiecare nou șantier în 24 de ore.",
+    "perMonth": "/ șantier / lună",
+    "recommended": "Recomandat",
+    "choose": "Alege",
+    "plans": {
+      "air": {
+        "name": "Air",
+        "desc": "Monitorizarea calității aerului și alerte de poluare.",
+        "features": [
+          "3 senzori PM10 / PM2.5 / zgomot",
+          "Alerte la depășirea pragurilor",
+          "Recomandări tunuri de apă",
+          "Rapoarte pentru autorități"
+        ]
+      },
+      "safety": {
+        "name": "Safety",
+        "desc": "Camerele vă ajută să vedeți echipamentul, lucrul la înălțime și zonele periculoase.",
+        "features": [
+          "Până la 12 camere",
+          "Cască, vestă, ham, zone interzise",
+          "Anti-furt nocturn",
+          "Alerte push / SMS / WhatsApp"
+        ]
+      },
+      "complete": {
+        "name": "Complete",
+        "desc": "Siguranță și aer într-un singur panou de control.",
+        "features": [
+          "Tot din Safety + Air",
+          "Camere nelimitate",
+          "Scor zilnic de siguranță",
+          "Rapoarte SSM automate",
+          "Suport prioritar"
+        ]
+      }
+    },
+    "hardware": "Hardware opțional: cameră {camera} {currency}, senzor aer {sensor} {currency}. Prețuri orientative, fără TVA."
+  },
+  "compliance": {
+    "kicker": "Încredere",
+    "title": "Nu căutăm vinovați. Prevenim accidente.",
+    "items": [
+      {
+        "title": "GDPR by design",
+        "desc": "Fețele sunt blurate automat. Fără recunoaștere facială. Cadrele se procesează pe edge și se păstrează doar clipurile cu incidente."
+      },
+      {
+        "title": "Legea 319/2006 SSM",
+        "desc": "Jurnal complet de evenimente și acțiuni corective, gata de prezentat la un control al Inspecției Muncii."
+      },
+      {
+        "title": "Calitatea aerului",
+        "desc": "Măsurători raportate la valorile-limită din Legea 104/2011. Istoric exportabil pentru autoritățile de mediu."
+      },
+      {
+        "title": "Securitate",
+        "desc": "Criptare end-to-end, acces pe roluri (coordonator, responsabil SSM, management) și audit al accesărilor."
+      }
+    ]
+  },
+  "team": {
+    "kicker": "Echipa",
+    "title": "Oamenii din spatele SANTINEL."
+  },
+  "cta": {
+    "title": "Hai să facem șantierul vostru mai sigur.",
+    "subtitle": "Ne vedem 20 de minute, online sau chiar pe șantier. Vă arătăm cum ar funcționa SANTINEL la voi.",
+    "name": "Nume",
+    "company": "Companie",
+    "email": "Email",
+    "sites": "Număr de șantiere",
+    "message": "Mesaj (opțional)",
+    "submit": "Trimite cererea",
+    "sending": "Se trimite…",
+    "success": "Mulțumim! Vă contactăm în 24 de ore.",
+    "error": "Ceva n-a mers. Scrieți-ne direct pe email.",
+    "mailSubject": "Cerere demo SANTINEL"
+  },
+  "footer": {
+    "tagline": "Ochiul care veghează șantierul.",
+    "rights": "Toate drepturile rezervate.",
+    "contact": "Contact"
+  },
+  "people": {
+    "kicker": "Pentru cine",
+    "title": "Făcut pentru oamenii de pe șantier, nu ca să-i supravegheze.",
+    "items": [
+      {
+        "who": "Muncitorul",
+        "text": "Ajunge acasă întreg, la familie. SANTINEL nu știe cine e și nu pârăște pe nimeni: vede doar o cască lipsă."
+      },
+      {
+        "who": "Coordonatorul",
+        "text": "Nu mai aleargă de la un capăt la altul. Află ce contează, la timp, pe telefon, și se poate ocupa de lucrare."
+      },
+      {
+        "who": "Vecinii",
+        "text": "Respiră aer mai curat și dorm mai liniștiți. Lucrarea de lângă ei nu mai e o sursă de stres."
+      },
+      {
+        "who": "Firma",
+        "text": "Mai puține accidente, amenzi și opriri de lucru. Și numele unui constructor care are grijă de oameni."
+      }
+    ]
+  }
+}
