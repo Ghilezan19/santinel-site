@@ -13,6 +13,7 @@ export default function Cta() {
   const tf = useTranslations("footer");
   const root = useRef<HTMLElement>(null);
   const [status, setStatus] = useState<Status>("idle");
+  const [detail, setDetail] = useState("");
 
   useGSAP(
     () => {
@@ -67,11 +68,13 @@ export default function Cta() {
           _captcha: "false",
         }),
       });
-      const json = (await res.json().catch(() => ({}))) as { success?: string | boolean };
+      const json = (await res.json().catch(() => ({}))) as { success?: string | boolean; message?: string };
       const ok = res.ok && String(json.success) !== "false";
+      setDetail(ok ? "" : json.message || `HTTP ${res.status}`);
       setStatus(ok ? "ok" : "error");
       if (ok) form.reset();
-    } catch {
+    } catch (err) {
+      setDetail(err instanceof Error ? err.message : "");
       setStatus("error");
     }
   };
@@ -126,6 +129,7 @@ export default function Cta() {
                 <a href={`mailto:${site.contactEmail}`} className="underline">
                   {site.contactEmail}
                 </a>
+                {detail && <span className="mt-1 block text-xs text-dim">({detail})</span>}
               </p>
             )}
           </form>
