@@ -90,7 +90,7 @@ export default function Hero() {
       {/* content */}
       <div
         data-content
-        className="relative z-10 mx-auto flex h-full max-w-[1400px] flex-col justify-end px-4 pb-20 md:px-8 md:pb-24"
+        className="relative z-10 mx-auto flex h-full max-w-[1400px] flex-col justify-end px-4 pb-20 pt-24 md:px-8 md:pb-24 md:pt-28"
       >
         <div
           data-fade
