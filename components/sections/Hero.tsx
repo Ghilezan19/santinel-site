@@ -104,7 +104,7 @@ export default function Hero() {
         </div>
         <h1
           data-title
-          className="font-display text-[13vw] font-bold leading-[0.9] tracking-[-0.035em] sm:text-[10vw] lg:text-[7.4vw] xl:text-[112px]"
+          className="font-display text-[13vw] font-bold leading-[0.9] tracking-[-0.035em] sm:text-[min(10vw,13svh)] lg:text-[min(7.4vw,13svh)] xl:text-[min(112px,13svh)]"
         >
           <span className="block">{t("title1")}</span>
           <span className="block text-fg/50">{t("title2")}</span>
